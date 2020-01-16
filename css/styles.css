@@ -1,0 +1,9 @@
+body {
+    background-image: url("../images/lasagne.jpeg");
+}
+
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
