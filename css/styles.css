@@ -1,9 +1,64 @@
 body {
-    background-image: url("../images/lasagne.jpeg");
+    background-image: url("../images/italian-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
-
 
 .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: #000000;
+    opacity: 0.5;
+    height: 200px;
+    
 }
+
+.container-fluid {
+    margin: 10px auto 20px auto;
+       
+    
+}
+
+.alert {
+height: 120px;
+width: 55%;
+opacity: 0.9;
+display: none;
+text-align: center;
+}
+.card {
+    margin: 0px auto 10px auto;
+    height: auto;
+    
+}
+
+.card-title {
+    text-align: center;
+}
+#label {
+    text-align: left;
+}
+
+.margin {
+    margin-right: 10px;;
+}
+
+#message {
+font-size: 50px;
+font-family: cursive;
+color: red;
+}
+
+#messPart1 {
+    font-size: 50px;
+    font-family: cursive;
+    color: #fff;
+    }
+
+#titreResto {
+font-size: 80px;
+font-family: cursive;
+color: red;
+transform: rotate(30deg);
+}
+
