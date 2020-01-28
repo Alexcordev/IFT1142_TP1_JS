@@ -67,12 +67,14 @@ et le total */
       var list1 = document.getElementById("repas");
       var image = document.getElementById("image_entree");
       var image1 = document.getElementById("image_repas");
+      var prix_entree = document.getElementById("prix_entree");
+      var prix_repas = document.getElementById("prix_repas")
       list.selectedIndex = 0;
       list1.selectedIndex = 0;
       image.src = "images/default.png";
       image1.src = "images/repas.jpeg";
-      prix1.innerText = "0.00 $";
-      prix.innerText = "0.00 $";
+      prix_entree.innerText = "0.00 $";
+      prix_repas.innerText = "0.00 $";
       sTotal.innerHTML = "Sous-Total : 0.00 $";
       tx.innerHTML = " Taxes : 0.00 $";
       gTotal.innerHTML = " Total : 0.00 $";
