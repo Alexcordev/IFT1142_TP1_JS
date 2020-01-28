@@ -5,6 +5,12 @@ body {
     
 }
 
+#nomEtudiant {
+    float: right;
+    color: #fff;
+    margin: -50px auto auto auto;
+}
+
 .jumbotron {
     text-align: center;
     background-color: #000000;
@@ -21,7 +27,7 @@ body {
 
 .alert {
 height: 120px;
-width: 55%;
+width: 60%;
 opacity: 0.9;
 display: none;
 text-align: center;
@@ -61,4 +67,14 @@ font-family: cursive;
 color: red;
 transform: rotate(30deg);
 }
+@media only screen and (max-width: 600px) {
+    .alert {
+      width: 100%;
+    }
+    #nomEtudiant {
+        margin-top: -30px;
+        width: 100%;
+        
+    }
+  }
 
