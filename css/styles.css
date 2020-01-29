@@ -1,80 +1,75 @@
 body {
-    background-image: url("../images/italian-background.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+  background-image: url("../images/italian-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #nomEtudiant {
-    float: right;
-    color: #fff;
-    margin: -50px auto auto auto;
+  float: right;
+  color: #fff;
+  margin: -50px auto auto auto;
 }
 
 .jumbotron {
-    text-align: center;
-    background-color: #000000;
-    opacity: 0.5;
-    height: 200px;
-    
+  text-align: center;
+  background-color: #000000;
+  opacity: 0.5;
+  height: 200px;
 }
 
 .container-fluid {
-    margin: 10px auto 20px auto;
-       
-    
+  margin: 10px auto 20px auto;
 }
 
 .alert {
-height: 120px;
-width: 60%;
-opacity: 0.9;
-display: none;
-text-align: center;
+  height: 120px;
+  width: 60%;
+  opacity: 0.9;
+  display: none;
+  text-align: center;
 }
+
 .card {
-    margin: 0px auto 10px auto;
-    height: auto;
-    
+  margin: 0px auto 10px auto;
+  height: auto;
 }
 
 .card-title {
-    text-align: center;
+  text-align: center;
 }
 #label {
-    text-align: left;
+  text-align: left;
 }
 
 .margin {
-    margin-right: 10px;;
+  margin-right: 10px;
 }
 
 #message {
-font-size: 50px;
-font-family: cursive;
-color: red;
+  font-size: 50px;
+  font-family: cursive;
+  color: red;
 }
 
 #messPart1 {
-    font-size: 50px;
-    font-family: cursive;
-    color: #fff;
-    }
+  font-size: 50px;
+  font-family: cursive;
+  color: #fff;
+}
 
 #titreResto {
-font-size: 80px;
-font-family: cursive;
-color: red;
-transform: rotate(30deg);
+  font-size: 80px;
+  font-family: cursive;
+  color: red;
+  transform: rotate(30deg);
 }
-@media only screen and (max-width: 600px) {
-    .alert {
-      width: 100%;
-    }
-    #nomEtudiant {
-        margin-top: -30px;
-        width: 100%;
-        
-    }
-  }
 
+@media only screen and (max-width: 600px) {
+  .alert {
+    width: 100%;
+  }
+  #nomEtudiant {
+    margin-top: -30px;
+    width: 100%;
+  }
+}

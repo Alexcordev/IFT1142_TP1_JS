@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
+    <!--TRAVAIL EFFECTUÉ PAR ALEXANDRE CORMIER POUR LE COURS IFT1142 SECTION A D'ANTONIO TAVARES
+    Cette page en HTML5 présente un menu de restaurant italien où l'utilisateur a l'option de 
+    sélectionner l'entrée et le repas principal. Le prix et le total de la facture est ensuite affiché
+    dans une alerte au bas de la page-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -35,7 +39,9 @@
               />
               <h5 class="card-title">Sélectionnez votre entrée</h5>
               <div class="form-group">
-                <label id="label" for="entrees">Faites votre choix</label><br />
+                <label id="label_entrees" for="entrees"
+                  >Faites votre choix</label
+                ><br />
                 <select
                   class="form-control"
                   id="entrees"
@@ -59,7 +65,8 @@
               />
               <h5 class="card-title">Sélectionnez votre repas</h5>
               <div class="form-group">
-                <label id="label" for="repas">Faites votre choix</label><br />
+                <label id="label_repas" for="repas">Faites votre choix</label
+                ><br />
                 <select
                   class="form-control"
                   id="repas"
